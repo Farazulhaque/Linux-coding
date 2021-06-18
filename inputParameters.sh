@@ -5,9 +5,9 @@ then
 	echo 'Second input: ' $2
 	echo 'Third input: ' $3
 	echo 'Fourth input: ' $4
-    echo 'Process id: ' pidof $0
-    echo 'Total number of input parameters: ' $#
+    	echo 'Process id: ' pidof $0
+    	echo 'Total number of input parameters: ' $#
 else
-    echo 'Usage: ./scriptname.sh first second third fourth'
+    	echo 'Usage: ./scriptname.sh first second third fourth'
 fi
 
