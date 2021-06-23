@@ -1,4 +1,3 @@
-# Bash script to find the biggest number from the given three numbers passed as arguments
 if [ $# -ne 3 ]
 then
     echo "$0: number1 number2 number3 are not given">&2
