@@ -1,0 +1,13 @@
+if [ $# -nq 3 ]
+then
+	counter=0
+	while [ $counter != 10 ]; do
+	    lower=0
+	    upper=9999
+	    range=$(($upper-$lower+1))
+	    result=$RANDOM
+	    let "result %= range"
+	    echo  $(($result+$lower))
+	    counter=$((counter + 1))
+	done
+fi
