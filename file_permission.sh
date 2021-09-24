@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Enter Filename or path: " file
 
 if [[ -f $file ]]
